@@ -48,6 +48,10 @@
     background-color: #f1c40f;
     border: 1px solid #f1c40f;
 }
+.dropdown-item:hover{
+    background-color: #f1c40f;
+
+}
 
 /* ------------------------------------ */
 .bg-main {
@@ -80,7 +84,7 @@
 
 .Essex {
     color: #fcd733;
-    font-size: 20px;
+    font-size: 28px;
     padding-top: 30px;
 }
 
@@ -128,12 +132,14 @@ button:hover {
     line-height: 80px;
     letter-spacing: -3px;
     font-weight: 400;
+    
+    
 }
 
 .mian-heading {
     color: white;
     font-size: 92px;
-    line-height: 80px;
+    line-height: 50px;
     letter-spacing: -3px;
     font-weight: 400;
 }
