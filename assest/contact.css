@@ -78,39 +78,7 @@ button:hover {
     background-color: #dfb601;
     color: #536942;
 }
-/* <------footer------------> */
-.footer-one {
-    position: relative;
-    top: 5rem;
-}
 
-.icons-footer {
-    font-size: 50px;
-    padding: 10px;
-}
-
-.footer-one {
-    background-color: #252525;
-}
-
-.footer-sec {
-    background-color: black;
-}
-
-.footer-row {
-    padding-top: 200px;
-    /* margin-left: 100px; */
-}
-
-.icons-footer-2 {
-    background-color: #ffd936;
-    width: 50px;
-    padding: 10px;
-}
-
-.footer-p {
-    color: #ffd936;
-}
 
 @media (max-width:768px) and (min-width:320px) {
     .icons-footer-2 {
@@ -133,4 +101,29 @@ button:hover {
         justify-content: start;
         text-align: start;
     }
+}
+.first-col h2 {
+    color: #fcd733;
+}
+
+.sec-col h2 {
+    color: #fcd733;
+}
+
+.sec-col h3 {
+    color: #fcd733;
+}
+
+.third-col h2 {
+    color: #fcd733;
+}
+
+.footer {
+    background-color: #000;
+    color: white;
+
+}
+
+.footer a {
+    color: #fcd733;
 }
