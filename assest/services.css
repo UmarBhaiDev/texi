@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.services-banner {
+    background-image: url('/assest/images/banner\ about.jpg');
+    /* height: 400px; */
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: .9;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+}
+
+/* ==================services banner end======================== */
+
+.services-text {
+    margin-top: 10px;
+}
+
+.Thurrock-taxi {
+    background-color: #F3F3F3;
+
+}
+
+
+.school-run {
+    background-color: #F3F3F3;
+
+
+}
+
+.airports {
+    background-color: #F3F3F3;
+
+
+}
+
+/* <------footer------------> */
+.footer-one {
+    position: relative;
+    top: 5rem;
+}
+
+.icons-footer {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.footer-one {
+    background-color: #252525;
+}
+
+.footer-sec {
+    background-color: black;
+}
+
+.footer-row {
+    padding-top: 200px;
+    /* margin-left: 100px; */
+}
+
+.icons-footer-2 {
+    background-color: #ffd936;
+    width: 50px;
+    padding: 10px;
+}
+
+.footer-p {
+    color: #ffd936;
+}
+
+@media (max-width:768px) and (min-width:320px) {
+    .about-card {
+        right: 0;
+    }
+
+    .icons-footer-2 {
+        display: flex;
+        justify-content: start;
+        margin: 0;
+    }
+
+
+
+    .quick-list {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .footer-p {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+}

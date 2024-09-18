@@ -1,0 +1,321 @@
+@import url(contact.css);
+@import url(about.css);
+@import url(ourgraysbase.css);
+@import url(ourOckendonBase.css);
+@import url(services.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: transparent;
+    color: white !important;
+    z-index: 100;
+}
+
+.navbar-toggler {
+    background-color: cadetblue;
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1c40f !important;
+}
+.navbar-nav .nav-link a{
+    color: white;
+}
+
+.btn-book {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-left: 15px;
+}
+
+.btn-book:hover {
+    color: #000;
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+}
+
+/* ------------------------------------ */
+.bg-main {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assest/images/main\ video\ home.mp4');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    color: white;
+    position: absolute;
+    opacity: 0.9;
+    top: 0; */
+    padding: 0;
+
+
+    .width_set {
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+    }
+}
+.video-section{
+   width: 100%;
+}
+
+.Essex {
+    color: #fcd733;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* height: 500px; */
+
+
+}
+
+.contact-page {
+    display: flex;
+    gap: 10px;
+    height: 60px;
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: #fcd733;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+}
+
+button:hover {
+    background-color: #e4c026;
+}
+
+.mian-heading span {
+    color: #fcd733;
+    font-size: 92px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    font-weight: 400;
+}
+
+.mian-heading {
+    color: white;
+    font-size: 92px;
+    line-height: 80px;
+    letter-spacing: -3px;
+    font-weight: 400;
+}
+
+/* -----------------banner about--------------- */
+.about-card {
+    border: none;
+    /* box-shadow: 5px 5px 5px grey; */
+    margin-top: 130px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    position: relative;
+    right: 9rem;
+    border-radius: 0;
+}
+
+.taxi-grays {
+    color: #536942;
+}
+
+.about-us {
+    color: #536942;
+}
+
+.about-data {
+    border: none;
+}
+
+.about-us-p {
+    color: #7d8e70;
+    font-size: 15px;
+}
+
+/*------------------------ icons-section--------------------- */
+.icons-setion {
+    i {
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    h5 {
+        color: #fcd733;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        color: #7d8e70;
+    }
+
+}
+
+/* <------footer------------> */
+.footer-one {
+    position: relative;
+    top: 5rem;
+}
+
+.icons-footer {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.footer-one {
+    background-color: #252525;
+}
+
+.footer-sec {
+    background-color: black;
+}
+
+.footer-row {
+    padding-top: 200px;
+    /* margin-left: 100px; */
+}
+
+.icons-footer-2 {
+    background-color: #ffd936;
+    width: 50px;
+    padding: 10px;
+}
+
+.footer-p {
+    color: #ffd936;
+}
+
+@media (max-width:768px) and (min-width:320px) {
+    .about-card {
+        right: 0;
+    }
+
+    .icons-footer-2 {
+        display: flex;
+        justify-content: start;
+        margin: 0;
+    }
+
+
+
+    .quick-list {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .footer-p {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+    .mian-heading{
+        font-size: 50px;
+        line-height: 52px;
+        letter-spacing: -3px;
+        font-weight: 400;
+    }
+    .essex-cab{
+        height: auto;
+    }
+}
+
+
+
+/* Full-screen video container */
+.video-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Styling for the background video */
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+  
+  /* Overlay content on top of the video */
+  .content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent dark overlay */
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  

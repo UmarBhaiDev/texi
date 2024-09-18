@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: #ffd936;
+    color: black;
+}
+
+.about-banner {
+    background-image: url('/assest/images/banner\ about.jpg');
+    /* height: 400px; */
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: .9;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+}
+
+.banner-heading {
+    padding-top: 150px;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-card {
+    border: none;
+    /* box-shadow: 5px 5px 5px grey; */
+    margin-top: 130px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    position: relative;
+    right: 9rem;
+    border-radius: 0;
+}
+
+.taxi-grays {
+    color: #536942;
+}
+
+.about-us {
+    color: #536942;
+}
+
+.about-data {
+    border: none;
+}
+
+.about-us-p {
+    color: #7d8e70;
+    /* font-size: 8px; */
+}
+
+.list-about {
+    color: #7d8e70;
+}
+
+/* <------footer------------> */
+.footer-one {
+    position: relative;
+    top: 5rem;
+}
+
+.icons-footer {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.footer-one {
+    background-color: #252525;
+}
+
+.footer-sec {
+    background-color: black;
+}
+
+.footer-row {
+    padding-top: 200px;
+    /* margin-left: 100px; */
+}
+
+.icons-footer-2 {
+    background-color: #ffd936;
+    width: 50px;
+    padding: 10px;
+}
+
+.footer-p {
+    color: #ffd936;
+}
+
+@media (max-width:768px) and (min-width:320px) {
+    .about-card {
+        right: 0;
+    }
+
+    .icons-footer-2 {
+        display: flex;
+        justify-content: start;
+        margin: 0;
+    }
+
+    
+
+    .quick-list {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .footer-p {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+}

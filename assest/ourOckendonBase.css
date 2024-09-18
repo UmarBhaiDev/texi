@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection {
+    background: #ffd936;
+    color: black;
+}
+/* <=================BANNER===================> */
+.Ockendon-banner {
+    background-image: url('/assest/images/banner\ about.jpg');
+    background-blend-mode: multiply;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* opacity: .9; */
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+}
+
+.Ockendon-heading {
+    padding-top: 150px;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* <====================================================> */
+/* .footer-one {
+    position: relative;
+    top: 5rem;
+} */
+
+.icons-Ockendon {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.ockendon-h5{
+    color: #536942;
+}
+.ockendon-p{
+    color: #7d8e70;
+}
+.ocken-btn{
+    width: 150px;
+    height: 50px;
+    color: #536942;
+}
+.ocken-btn:hover{
+    background-color: #dfb601;
+    color: #536942;
+}
+
+
+/* <------footer------------> */
+.footer-one {
+    position: relative;
+    top: 5rem;
+}
+
+.icons-footer {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.footer-one {
+    background-color: #252525;
+}
+
+.footer-sec {
+    background-color: black;
+}
+
+.footer-row {
+    padding-top: 200px;
+    /* margin-left: 100px; */
+}
+
+.icons-footer-2 {
+    background-color: #ffd936;
+    width: 50px;
+    padding: 10px;
+}
+
+.footer-p {
+    color: #ffd936;
+}
+.map iframe{
+    height: 600px;
+    width: 100%;
+    border: 0;
+
+}
+
+@media (max-width:768px) and (min-width:320px) {
+
+    .icons-footer-2 {
+        display: flex;
+        justify-content: start;
+        margin: 0;
+    }
+
+    
+
+    .quick-list {
+        display: flex;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .footer-p {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+    .map iframe{
+        height: 400px;
+        width: auto;
+    }
+}
+
