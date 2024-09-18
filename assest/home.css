@@ -87,7 +87,7 @@
 .Essex {
     color: #fcd733;
     font-size: 28px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 form {
@@ -140,7 +140,7 @@ button:hover {
 
 .mian-heading {
     color: white;
-    font-size: 92px;
+    font-size: 90px;
     line-height: 50px;
     letter-spacing: -3px;
     font-weight: 400;
@@ -196,41 +196,6 @@ button:hover {
     }
 
 }
-
-/* <------footer------------> */
-.footer-one {
-    position: relative;
-    top: 5rem;
-}
-
-.icons-footer {
-    font-size: 50px;
-    padding: 10px;
-}
-
-.footer-one {
-    background-color: #252525;
-}
-
-.footer-sec {
-    background-color: black;
-}
-
-.footer-row {
-    padding-top: 200px;
-    /* margin-left: 100px; */
-}
-
-.icons-footer-2 {
-    background-color: #ffd936;
-    width: 50px;
-    padding: 10px;
-}
-
-.footer-p {
-    color: #ffd936;
-}
-
 @media (max-width:768px) and (min-width:320px) {
     .about-card {
         right: 0;
