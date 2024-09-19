@@ -5,6 +5,7 @@
 @import url(services.css);
 @import url(airport.css);
 @import url(taxi.css);
+@import url(intercity.css);
 
 * {
     padding: 0;
