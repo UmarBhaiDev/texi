@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.section-video {
+    width: 100%;
+}
+
+.Taxiservices .heading {
+    color: white;
+    font-size: 70px;
+    line-height: 50px;
+    letter-spacing: -3px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+
+/* Full-screen video container */
+.video-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Styling for the background video */
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Overlay content on top of the video */
+.content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+/*---------------------------- about=================== */
